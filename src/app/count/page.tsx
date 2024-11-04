@@ -1,7 +1,7 @@
 "use client"
 
 import useStore from '@/store/useStore';
-import styles from './countValue.module.css';
+import styles from './count.module.css';
 import CountButtons from '@/components/countButtons/page';
 
 export default function Page() {
