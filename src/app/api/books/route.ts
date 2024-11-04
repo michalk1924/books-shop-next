@@ -11,6 +11,8 @@ export async function GET(request : NextRequest) {
 }
 
 export async function POST(request : NextRequest) {
+  console.log("add");
+  debugger
   const newBook = await request.json();
   newBook.id = books.length ? books[books.length - 1].id + 1 : 1; // יצירת ID חדש
   books.push(newBook);
