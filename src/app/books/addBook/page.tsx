@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import styles from './addBook.module.css';
 import { Book } from '../page';
 
@@ -8,7 +8,7 @@ interface AddBookProps {
     handleAddBook: (book: Book) => void;
 }
 
-function AddBook({ handleAddBook }: AddBookProps) {
+function AddBook({ handleAddBook }: any) {
     const [newBook, setNewBook] = useState<Book>({ title: "", price: "", image: "", id: 0});
 
     const handleSubmit = (e: React.FormEvent) => {

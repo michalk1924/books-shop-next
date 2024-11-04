@@ -15,6 +15,10 @@ export interface Book {
     image: string;
 }
 
+interface AddBookProps {
+    handleAddBook: (book: Book) => void;
+}
+
 function Page() {
     const [books, setBooks] = useState<Book[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
