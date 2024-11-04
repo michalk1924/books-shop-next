@@ -1,15 +1,14 @@
 "use client"
 
-import useStore from '@/store/userStore';
-import styles from './count.module.css'
+import useStore from '@/store/useStore';
+import styles from './countButtons.module.css'
 
-export default function Page() {
+export default function countButtons() {
 
-  const {count, increase, decrease} = useStore();
+  const {increase, decrease} = useStore();
 
   return (
     <div className={styles.container}>
-        <h2 className={styles.h2}>{count}</h2>
         <button className={styles.button} onClick={increase}>+</button>
         <button className={styles.button} onClick={decrease}>-</button>
     </div>

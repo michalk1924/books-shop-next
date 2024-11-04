@@ -9,12 +9,6 @@
     background-color: #f9f9f9; /* Light background */
 }
 
-.h2 {
-    font-size: 3rem; /* Large font size for the count */
-    color: #333; /* Dark text color */
-    margin-bottom: 20px; /* Space below the heading */
-}
-
 .button {
     background-color: #ff5722; /* Orange color for buttons */
     color: white; /* White text on buttons */
