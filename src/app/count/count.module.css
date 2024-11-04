@@ -1,0 +1,32 @@
+/* count.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Light background */
+}
+
+.h2 {
+    font-size: 3rem; /* Large font size for the count */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.button {
+    background-color: #ff5722; /* Orange color for buttons */
+    color: white; /* White text on buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for buttons */
+    font-size: 1.5rem; /* Larger font size for buttons */
+    margin: 5px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}

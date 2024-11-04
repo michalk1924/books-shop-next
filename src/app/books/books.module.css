@@ -38,9 +38,9 @@
         outline: none;
     }
 
-    &:active {
+    /* &:active {
         transform: scale(0.95);
-    }
+    } */
 }
 
 .prod img {
